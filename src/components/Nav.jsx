@@ -34,7 +34,7 @@ const Nav = () => {
             onClick={toggleNavbar}
           />
           {isNavbarOpen && (
-            <div className="absolute top-10 right-7 bg-white shadow-md rounded-lg w-40 p-4 z-20 mt-7 z-10">
+            <div className="absolute top-10 right-7 bg-white shadow-md rounded-lg w-40 p-4 z-20 mt-7 ">
               <ul className="flex flex-col gap-4 text-lg">
                 {navLinks.map((item) => (
                   <li key={item.label}>
